@@ -1,0 +1,122 @@
+body{
+    background: linear-gradient(to bottom left,  rgb(150, 150, 151), rgb(119, 106, 108));
+    margin-left: 100px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.formCon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    border-radius: 60% 70% 8% 80% / 70% 80% 40% 80%;
+    box-shadow:inset 10px 20px 20px rgba(0,0,0,0.3),
+    10px 20px 20px rgba(0,0,0,0.5),
+    10px 20px 20px rgba(0,0,0,0.3),
+    -5px -5px 10px rgba(125,125,125,0.2);
+    background: rgb(150, 150, 151);
+    height: 500px;
+    width: 600px;
+}
+.inputCon{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 30px;
+}
+.inputCon h1{
+    color: rgb(63, 53, 53);
+}
+.inputCon > i{
+    background: grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    width:30%;
+    color:white;
+    box-shadow: 5px 2px 20px #525f8d ,
+    -5px -5px 15px #d7d8df73;
+    text-align:center;
+}
+
+.inputCon >input{
+    padding: 10px;
+    width:100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    outline:none;
+    border:none;
+    background:rgb(156, 149, 150);
+    box-shadow: inset 2px 3px 10px #525f8d ,
+    inset -5px -5px 10px #d7d8df73;
+}
+.inputCon >input[type="submit"]{
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    outline:none;
+    border:none;
+    background-color: rgb(156, 149, 150);
+    box-shadow:2px 2px 5px #525f8d,
+    -5px -5px 10px #d7d8df73;
+}
+.inputCon >input[type="submit"]:hover{
+    color:white;
+    background: rgb(156, 149, 150);
+    box-shadow:inset 2px 2px 5px #525f8d,
+    inset -5px -5px 10px #d7d8df73;
+}
+.inputCon:last-child{
+    width:80%;
+    margin-left: 34px;  
+    margin-bottom: 20px;
+}
+
+.didCon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    border-radius: 60% 70% 8% 80% / 70% 80% 40% 80%;
+    box-shadow:inset 10px 20px 20px rgba(0,0,0,0.3),
+    10px 20px 20px rgba(0,0,0,0.5),
+    10px 20px 20px rgba(0,0,0,0.3),
+    -5px -5px 10px rgba(125,125,125,0.2);
+    background: rgb(150, 150, 151);
+    height: 100px;
+    width: 200px;
+}
+.didCon a{
+    font-size: 17px;
+    font-weight: 900;
+    color: rgb(5, 0, 0);
+    text-decoration: none;
+}
+.didCon p{
+    font-size: 17px;
+    font-weight: 900;
+    color: rgb(7, 7, 7);
+}
+
+.d{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    height: 70px;
+    width: 90px;
+}
+.circle{
+    opacity: 0.4;
+    background:linear-gradient(to right top, rgb(75, 76, 82), rgb(179, 174, 174));
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+}
